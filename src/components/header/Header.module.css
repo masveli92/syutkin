@@ -1,0 +1,38 @@
+.header {
+    height: 15vh;
+    background: #FF3F3D;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    align-items: center;
+}
+.navBlock{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 3vw;
+    align-items: center;
+}
+.logo {
+    height: 100%;
+}
+.text {
+    color: white;
+}
+.contactBlock{
+    margin-right: 3vw;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 3vw;
+    align-items: center;
+}
+.header a {
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.header a[class = 'active']{
+    color: #773131;
+}

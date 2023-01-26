@@ -1,0 +1,13 @@
+.aboutField{
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.aboutPic{
+width: 45vw;
+}
+.aboutText{
+    width: 35vw;
+   }
